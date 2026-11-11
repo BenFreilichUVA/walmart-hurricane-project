@@ -24,22 +24,26 @@ To be written.
 
 ## 3. Pipeline Trust
 
-*Written by*
+*Written by Tommy Snyder*
+The Walmart CDO argued that the biggest risk is not the model — it is the pipeline. Based on your experience in this project, do you agree or disagree? What was the most fragile part of your data pipeline?
 
-To be written.
+After immersing ourselves in this project, we do not believe the pipeline to be the problem under a few important characteristics. Confirming that all data is clean and correct is the most important factor when determining if the pipeline or the model is the biggest risk. Ben handled all SKU consolidation, but speaking from experience working with the API and weather data, there is many things that could have gone wrong within the pipeline without careful decision making. One important example of this was struggling with the different timezones and confirming them all to be measured the same so there would be no difference in dates and all weather and sales data was combined correctly. If this was done improperly, which it was at first, the sales data would be completely wrong and not give valuable insight to Walmart decision makers. On the other hand, the same thing can be said about the models, with user error, specifically on the first weather correlation graph in our case, posing a massive risk to insightful analysis. However when considering all of these possible human errors and the different problems we ran into, I would agree that the biggest risk is the pipeline. Feeding a model the wrong data can make a graph and calculation look perfectly correct, yet it actually is false due to the wrong data from the pipeline. User error and bad graph decisions are far easier to fix than major data issues that can look deceptively correct. 
 
 ---
 
 ## 4. Business vs. Data
 
-*Written by*
+*Written by Tommy Snyder*
+For Question 5 (board games), your team had to make a recommendation with imperfect data. How did you weigh statistical evidence against business risk? Would you have decided differently with more time or more data?
 
-To be written.
+Weighing statistical evidence and business risk is the most prominent issue regarding business decision making a concept seen throughout business and economics alike. What makes something statistically significant versus economically significant? These decisions come down to judgment and weighing real life risks. When considering making a board game recommendation based on imperfect data, it was incredibly important to consider the effects of the decisions, both positively and negatively, as possibilities. When considering the increased costs of stocking extra board games and the possibility of not being able to fulfill these additional expected purchases, the smart business decision considering all data was to expect a jump due to the evidence of a 250% increase in sales, but also acknowledge the possibility that this data is misleading. Ben came to this conclusion and I fully agree with it as it makes the most sense when considering possible costs and the limited upside that stocking to a 200+% increase truly provides a Walmart in preparation of massive storms. With more storm data from past surges similar to ours, we could have analyzed if this is a common surge in board game sales, easing out fears of a possible drawdown in the next occurrence. It also could have confirmed out concerns that we should hedge against fully expecting that large of a surge every time a massive storm rolls in. More time and data could have provided more insight into either side of our decision, but definitely made us more confident either way.
+
 
 ---
 
 ## 5. Team Collaboration
 
 *Written by both*
+How did your team divide the work? What would you do differently if you had another week? What was the most valuable skill each team member contributed?
 
-To be written.
+We divided the work by splitting the questions with Ben doing 3 and Tommy doing 2 to best even out the workload. We also split up the big data cleaning/calling processes to ensure that we each had a strong understand of the back ends of our data. Ben working on SKU consolidation and store data while Tommy focused on the API and Weather data. This worked very well together and we had great chemistry and communication throughout the entire project to ensure an even workload and a timely finish to the project. I (Tommy) really enjoyed working with Ben and the only thing I would have changed would have been taking a deeper dive into the SKU consolidation process as I know that was very difficult and believe Ben would have done a great job explaining that to me in depth as it is one aspect of the class I still struggle with. 
