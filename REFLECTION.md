@@ -17,7 +17,7 @@ The most important data quality issue encountered in the supplied data was the s
 
 ## 2. ETL Trade-offs
 
-*Written by*
+*Written by Ben Freilich*
 
 You made choices about how to standardize SKUs, handle missing timestamps, and join weather data. Pick one decision and explain: what alternative approach could you have taken, and how might it have changed your results?
 
